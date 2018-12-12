@@ -12,6 +12,10 @@ lexId#form#postag
 2#tw=n#l-p---fg-
 2#to\#l-s---nn-
 2#to\#l-s---na-
+2#tou/s#l-p---ma-
+2#tou/s#l-p---na-
+2#to/#l-s---na-
+2#to/#l-s---nn-
 
 5#ei)s#r--------
 
@@ -29,9 +33,17 @@ lexId#form#postag
 
 9#sumporeu/esqai#v--pen---
 
+10#kai/#c--------
+
 11#dihmereu/ein#v--pan---
 
 12#met'#r--------
+
+13#a)llh/lwn#a-p---mg-
+13#a)llh/lwn#a-p---fg-
+13#a)llh/lwn#a-p---ng-
+
+14#de/#c--------
 
 15#mnhsth=res#n-p---mn-
 
@@ -43,7 +55,13 @@ lexId#form#postag
 
 19#e(spe/ras#n-s---fg-
 
+20#pro/s#r--------
+
 21#e(ka/sthn#a-s---fa-
+
+22#a)na/#r--------
+
+23#me/ros#n-s---mn-
 
 24#badi/zousai#v-ppapfn-
 
@@ -53,11 +71,15 @@ lexId#form#postag
 
 27#a)delfoi=s#n-p---md-
 
-29#poda/s#n-p---ma-
+28#a)/xri#d--------
+
+29#po/das#n-p---ma-
 
 30#a)poni/zein#v--pan---
 
 31#h)/rwn#v3piai---
+
+32#polla/kis#d--------
 
 33#mia=s#n-s---fg-
 
@@ -71,6 +93,8 @@ lexId#form#postag
 
 38#no/mimon#a-s---ma-
 
+39#w(/ste#d--------
+
 40#ko/rhs#n-s---fg-
 
 41#e)gguhqei/shs#v-sappfg-
@@ -78,6 +102,8 @@ lexId#form#postag
 33#e(ni/#n-s---md-
 
 42#a)/llous#a-p---ma-
+
+43#eu)qu/s#d--------
 
 44#pepau=sqai#v--ren---
 
@@ -87,9 +113,11 @@ lexId#form#postag
 
 47#gunaikw=n#n-p---fg-
 
-49#maoixei/an#n-s---fa-
+48#mh/te#c--------
 
-50#fqora/an#n-s---fa-
+49#moixei/an#n-s---fa-
+
+50#fqora/n#n-s---fa-
 
 51#a)ne/gguon#a-s---fa-
 
@@ -101,4 +129,6 @@ lexId#form#postag
 
 55#par'#r--------
 
-56#genome/nhn#v-sampfa-
+56#au)toi=s#a-p---md-
+
+57#genome/nhn#v-sampfa-
