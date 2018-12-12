@@ -1,0 +1,210 @@
+
+body {
+	font-family: "Lucida Grande", system-ui, -apple-system, BlinkMacSystemFont;
+	font-size: calc(20px + (30 - 20) * ((100vw - 750px) / (1600 - 750)));
+	background-color: #f1f0f0;
+}
+
+
+.formsList.hidden, .suggestionsList.hidden {
+	display: none;	
+}
+
+.analyzedSentences {
+	margin-top: 7em;
+}
+
+span.tokenSpan:hover {
+	background-color: rgba(0,0,0,0.1);
+}
+
+.voc {
+	border-bottom: 4px solid rgba(256,128,0,1);
+}
+
+/*
+.voc:after {
+	content:"";
+	position: relative;
+	color: red;
+	min-width: 9px;
+	border:5px solid rgba(256,128,0,0.32);
+	background-color: rgba(256,128,0,0.32);
+	right: 20px;
+	z-index: -10;
+}
+*/
+
+/*
+.nom:before {
+	content:"";
+	position: relative;
+	color: rgba(128,0,0,0.32);
+	min-width: 5px;
+	max-height: 2px;
+	border:5px solid rgba(256,0,0,0.32);
+	background-color: rgba(256,0,0,0.32);
+	right: -15px;
+	z-index: -10;
+}
+*/
+
+.nom {
+	background-color: rgba(256,0,0,0.32);
+}
+
+.acc {
+	/*	border-bottom: 15px solid rgba(0, 0, 128, 0.32) ; */
+	/*
+	background-image: linear-gradient(to bottom, rgba(0,0,128,0.32) 66%, transparent 33%);
+	  background-position: 0 .7em;
+	  background-repeat: repeat-x;
+	  background-size: 9px 10px;
+	  */
+	  background-color: rgba(0,0,128,0.32);
+}
+
+/*
+.gen:before {
+	content: "  ";
+	position: relative;
+	color: rgba(128,0,0,0.32);
+	min-width: 12px;
+	border: 8px solid rgba(154, 57, 21, 0.32);
+	background-color: rgba(154, 57, 21, 0.32);
+	right: -20px;
+	z-index: -10;
+}
+*/
+
+.gen {
+	border-top: 4px solid rgba(154, 57, 21, 0.32);
+}
+
+.dat {
+	border-bottom: 4px solid rgba(128,0,128,0.32);
+}
+
+/*
+.dat:after {
+content:" ";
+	position: relative;
+	min-width: 12px;
+	border:5px solid rgba(128,0,128,0.32);
+	background-color: rgba(128,0,128,0.32);
+	right: 20px;
+	z-index: -10;
+}
+*/
+
+.nom.acc {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0000+0,ff0000+43,ffffff+50,000080+56,000080+100&0.32+0,0.32+45,0.32+50,0.32+55,0.32+100 */
+background: -moz-linear-gradient(top, rgba(255,0,0,0.32) 0%, rgba(255,0,0,0.32) 43%, rgba(255,73,73,0.32) 45%, rgba(255,255,255,0.32) 50%, rgba(42,42,149,0.32) 55%, rgba(0,0,128,0.32) 56%, rgba(0,0,128,0.32) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,0,0,0.32) 0%,rgba(255,0,0,0.32) 43%,rgba(255,73,73,0.32) 45%,rgba(255,255,255,0.32) 50%,rgba(42,42,149,0.32) 55%,rgba(0,0,128,0.32) 56%,rgba(0,0,128,0.32) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,0,0,0.32) 0%,rgba(255,0,0,0.32) 43%,rgba(255,73,73,0.32) 45%,rgba(255,255,255,0.32) 50%,rgba(42,42,149,0.32) 55%,rgba(0,0,128,0.32) 56%,rgba(0,0,128,0.32) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52ff0000', endColorstr='#52000080',GradientType=0 ); /* IE6-9 */
+}
+
+
+.acc.dat {
+}
+
+.gen.dat {
+}
+
+.acc.gen {
+}
+
+.acc.dat.gen {
+}
+
+.unanalyzed {
+	border: 1px dashed red;	
+}
+
+.verb {
+	color: green;
+}
+
+
+span.tokenSpan:hover ul {
+	display: block;
+	margin: 0px;
+	position: fixed;
+	list-style-type: none;
+	top: 0px;
+	left: 0;
+	right: 0;
+	font-weight: normal;
+	font-size: 75%;
+	line-height: 1.2em;
+	padding: 30px;
+	background-color:#213450;
+	color: #ddd;
+	text-align: left;
+}
+
+span.tokenSpan:hover ul.suggestionsList:before {
+	content: "No matching forms. Suggestions:";
+	color: gold;
+	padding-bottom: 1em;
+}
+
+
+span.entry {
+	font-weight: bold;	
+	color: #fff;
+}
+
+span.form {
+	margin-right: 1em;
+	margin-right: 1em;
+	color: #fff;
+}
+
+li.greekSentence {
+	padding: 1em;
+	line-height: 2em;
+	margin-left: 1em;
+}
+
+ul.formsList {
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+ul.formsList li {
+	margin-bottom: 0.5em;
+}
+
+
+
+h1 {
+	font-weight: normal;
+	font-size: 1.1rem;
+	line-height: 1.2rem;
+	min-height: 4em;
+	padding: 0;
+	background-color:#213450;
+	color: #ffffff;
+	text-align: center;
+	margin: 0;
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	right: 0px;
+}
+
+form#styleSwitcher {
+	top: 10px;
+	position: fixed;
+}
+
+form#styleSwitcher input:hover {
+	color: blue;
+}
+
+form#styleSwitcher input {
+}
+
+
